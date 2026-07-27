@@ -20,6 +20,7 @@ Each figure lives in its own folder alongside the input data it needs.
 |--------|--------|----------|----------------------|
 | `Figure1/` | `sequencing_depth_viral_load_error_figure.R` | Depth / viral load / consensus error rate (Fig 1) | `Viral_load_68.xlsx` |
 | `Figure2/` | `make_combined_ABC.py` | Sanger–ONT resistance concordance (Fig 2) | `drug_concordance.csv`, `merged_resistance.csv`, `summary_stats.json`, `ccc_stats.json` |
+| `Figure2/` | `compute_ccc_stats.py` | Computes `ccc_stats.json` (Lin's CCC + bootstrap CI) | `merged_resistance.csv` |
 | `Figure3/` | `make_subtype_confusion_gd.py` | HIV-1 subtype confusion matrix (Fig 3) | `subtype_4way.csv` |
 | `Figure4/` | `make_subsampling_fidelity_figure.py` | Within-host diversity vs depth (Fig 4) | `external_subsampling_diversity.csv`, `vs_original_diversity_comparison.csv`, `rarefaction_curve.csv` |
 | `Figure4/` | `bam_diversity_metrics.py` | *Upstream:* computes the three CSVs above from BAMs | (requires aligned BAMs, not shipped) |
@@ -90,9 +91,10 @@ python3 Figure6/make_resistance_concordance_figure.py --out-dir /path/to/figures
 - **`Figure5/variant_vaf_comparison.csv`** is an upstream product of
   `plot_variant_counts_comparison.py` and is not committed (it derives from per-sample VCFs).
   Generate it first, or point `--input` at your own copy, before running `plot_vaf_agreement.py`.
-- **`Figure2/ccc_stats.json`** was reconstructed from the published Lin's concordance correlation
-  coefficient (0.839; 95% CI 0.733–0.928) and Pearson r (0.839). Regenerate from the raw
-  resistance-level matrix if exact bootstrap confidence intervals are required.
+- **`Figure2/ccc_stats.json`** is produced by `Figure2/compute_ccc_stats.py`, which computes Lin's
+  concordance correlation coefficient, its 95% CI (cluster bootstrap over participants) and Pearson r
+  directly from `merged_resistance.csv` (CCC = 0.839, Pearson r = 0.839). Regenerate any time with
+  `python3 Figure2/compute_ccc_stats.py`.
 - **Fonts.** The Python scripts request *Liberation Sans* and the R script *Arial/sans*; if these
   are unavailable, Matplotlib/ggplot fall back to the default sans-serif font without affecting
   the data.
