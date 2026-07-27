@@ -1,0 +1,273 @@
+bc,category,sanger_muts,canu_muts,shared,sanger_only,canu_only
+1,PI Major,0,0,0,0,0
+1,PI Accessory,0,0,0,0,0
+1,NRTI,0,0,0,0,0
+1,NNRTI,2,2,1,1,1
+2,PI Major,0,0,0,0,0
+2,PI Accessory,0,0,0,0,0
+2,NRTI,3,3,3,0,0
+2,NNRTI,4,4,4,0,0
+3,PI Major,0,0,0,0,0
+3,PI Accessory,0,0,0,0,0
+3,NRTI,0,0,0,0,0
+3,NNRTI,2,2,2,0,0
+4,PI Major,0,0,0,0,0
+4,PI Accessory,0,0,0,0,0
+4,NRTI,0,0,0,0,0
+4,NNRTI,0,0,0,0,0
+5,PI Major,0,0,0,0,0
+5,PI Accessory,0,0,0,0,0
+5,NRTI,0,0,0,0,0
+5,NNRTI,1,1,0,1,1
+6,PI Major,0,0,0,0,0
+6,PI Accessory,0,0,0,0,0
+6,NRTI,0,0,0,0,0
+6,NNRTI,1,1,1,0,0
+7,PI Major,0,0,0,0,0
+7,PI Accessory,0,0,0,0,0
+7,NRTI,0,0,0,0,0
+7,NNRTI,0,0,0,0,0
+8,PI Major,0,0,0,0,0
+8,PI Accessory,0,0,0,0,0
+8,NRTI,1,1,1,0,0
+8,NNRTI,0,0,0,0,0
+10,PI Major,0,0,0,0,0
+10,PI Accessory,0,0,0,0,0
+10,NRTI,0,0,0,0,0
+10,NNRTI,0,0,0,0,0
+12,PI Major,0,0,0,0,0
+12,PI Accessory,0,0,0,0,0
+12,NRTI,0,0,0,0,0
+12,NNRTI,1,1,1,0,0
+13,PI Major,0,0,0,0,0
+13,PI Accessory,0,0,0,0,0
+13,NRTI,0,0,0,0,0
+13,NNRTI,0,0,0,0,0
+14,PI Major,0,0,0,0,0
+14,PI Accessory,0,0,0,0,0
+14,NRTI,0,0,0,0,0
+14,NNRTI,0,0,0,0,0
+15,PI Major,0,0,0,0,0
+15,PI Accessory,0,0,0,0,0
+15,NRTI,0,0,0,0,0
+15,NNRTI,0,0,0,0,0
+16,PI Major,0,0,0,0,0
+16,PI Accessory,0,0,0,0,0
+16,NRTI,0,0,0,0,0
+16,NNRTI,0,0,0,0,0
+17,PI Major,0,0,0,0,0
+17,PI Accessory,0,0,0,0,0
+17,NRTI,2,2,2,0,0
+17,NNRTI,3,3,3,0,0
+20,PI Major,0,0,0,0,0
+20,PI Accessory,0,0,0,0,0
+20,NRTI,0,0,0,0,0
+20,NNRTI,0,0,0,0,0
+21,PI Major,0,0,0,0,0
+21,PI Accessory,0,0,0,0,0
+21,NRTI,5,5,5,0,0
+21,NNRTI,1,2,1,0,1
+29,PI Major,0,0,0,0,0
+29,PI Accessory,0,0,0,0,0
+29,NRTI,0,0,0,0,0
+29,NNRTI,0,0,0,0,0
+30,PI Major,0,0,0,0,0
+30,PI Accessory,0,0,0,0,0
+30,NRTI,0,0,0,0,0
+30,NNRTI,0,0,0,0,0
+32,PI Major,0,0,0,0,0
+32,PI Accessory,0,0,0,0,0
+32,NRTI,0,0,0,0,0
+32,NNRTI,2,2,2,0,0
+33,PI Major,0,0,0,0,0
+33,PI Accessory,0,0,0,0,0
+33,NRTI,1,1,1,0,0
+33,NNRTI,2,2,2,0,0
+34,PI Major,0,0,0,0,0
+34,PI Accessory,0,0,0,0,0
+34,NRTI,5,5,4,1,1
+34,NNRTI,1,1,1,0,0
+35,PI Major,0,0,0,0,0
+35,PI Accessory,0,0,0,0,0
+35,NRTI,7,7,7,0,0
+35,NNRTI,1,1,1,0,0
+36,PI Major,0,0,0,0,0
+36,PI Accessory,0,0,0,0,0
+36,NRTI,0,0,0,0,0
+36,NNRTI,0,0,0,0,0
+37,PI Major,0,0,0,0,0
+37,PI Accessory,0,0,0,0,0
+37,NRTI,1,1,0,1,1
+37,NNRTI,1,1,0,1,1
+43,PI Major,0,0,0,0,0
+43,PI Accessory,0,0,0,0,0
+43,NRTI,1,1,1,0,0
+43,NNRTI,0,0,0,0,0
+44,PI Major,0,0,0,0,0
+44,PI Accessory,0,0,0,0,0
+44,NRTI,0,0,0,0,0
+44,NNRTI,0,0,0,0,0
+45,PI Major,0,0,0,0,0
+45,PI Accessory,0,0,0,0,0
+45,NRTI,0,0,0,0,0
+45,NNRTI,1,1,1,0,0
+46,PI Major,0,0,0,0,0
+46,PI Accessory,0,0,0,0,0
+46,NRTI,0,0,0,0,0
+46,NNRTI,1,0,0,1,0
+48,PI Major,0,0,0,0,0
+48,PI Accessory,0,0,0,0,0
+48,NRTI,1,1,1,0,0
+48,NNRTI,2,2,2,0,0
+49,PI Major,0,0,0,0,0
+49,PI Accessory,0,0,0,0,0
+49,NRTI,1,1,0,1,1
+49,NNRTI,0,0,0,0,0
+50,PI Major,0,0,0,0,0
+50,PI Accessory,0,0,0,0,0
+50,NRTI,0,0,0,0,0
+50,NNRTI,0,0,0,0,0
+53,PI Major,0,0,0,0,0
+53,PI Accessory,0,0,0,0,0
+53,NRTI,3,1,1,2,0
+53,NNRTI,0,0,0,0,0
+54,PI Major,0,0,0,0,0
+54,PI Accessory,0,0,0,0,0
+54,NRTI,4,4,4,0,0
+54,NNRTI,0,0,0,0,0
+55,PI Major,0,0,0,0,0
+55,PI Accessory,1,0,0,1,0
+55,NRTI,1,1,1,0,0
+55,NNRTI,1,1,1,0,0
+57,PI Major,3,3,3,0,0
+57,PI Accessory,1,1,1,0,0
+57,NRTI,4,4,4,0,0
+57,NNRTI,3,3,3,0,0
+58,PI Major,0,0,0,0,0
+58,PI Accessory,0,0,0,0,0
+58,NRTI,0,0,0,0,0
+58,NNRTI,0,0,0,0,0
+59,PI Major,0,0,0,0,0
+59,PI Accessory,0,0,0,0,0
+59,NRTI,4,0,0,4,0
+59,NNRTI,2,2,0,2,2
+60,PI Major,0,0,0,0,0
+60,PI Accessory,0,0,0,0,0
+60,NRTI,1,1,1,0,0
+60,NNRTI,2,2,2,0,0
+61,PI Major,0,0,0,0,0
+61,PI Accessory,0,0,0,0,0
+61,NRTI,1,1,1,0,0
+61,NNRTI,0,0,0,0,0
+62,PI Major,0,0,0,0,0
+62,PI Accessory,0,0,0,0,0
+62,NRTI,0,0,0,0,0
+62,NNRTI,0,0,0,0,0
+63,PI Major,0,0,0,0,0
+63,PI Accessory,0,0,0,0,0
+63,NRTI,0,0,0,0,0
+63,NNRTI,0,0,0,0,0
+66,PI Major,0,0,0,0,0
+66,PI Accessory,0,0,0,0,0
+66,NRTI,2,2,2,0,0
+66,NNRTI,1,1,1,0,0
+67,PI Major,0,0,0,0,0
+67,PI Accessory,0,0,0,0,0
+67,NRTI,0,0,0,0,0
+67,NNRTI,1,2,0,1,2
+68,PI Major,0,0,0,0,0
+68,PI Accessory,0,0,0,0,0
+68,NRTI,0,0,0,0,0
+68,NNRTI,1,1,1,0,0
+70,PI Major,0,0,0,0,0
+70,PI Accessory,0,0,0,0,0
+70,NRTI,0,0,0,0,0
+70,NNRTI,0,0,0,0,0
+71,PI Major,0,0,0,0,0
+71,PI Accessory,0,0,0,0,0
+71,NRTI,0,0,0,0,0
+71,NNRTI,0,0,0,0,0
+72,PI Major,0,0,0,0,0
+72,PI Accessory,0,0,0,0,0
+72,NRTI,2,2,2,0,0
+72,NNRTI,2,2,2,0,0
+73,PI Major,0,0,0,0,0
+73,PI Accessory,0,0,0,0,0
+73,NRTI,0,1,0,0,1
+73,NNRTI,0,3,0,0,3
+75,PI Major,0,0,0,0,0
+75,PI Accessory,1,0,0,1,0
+75,NRTI,0,0,0,0,0
+75,NNRTI,3,0,0,3,0
+76,PI Major,0,0,0,0,0
+76,PI Accessory,0,0,0,0,0
+76,NRTI,0,4,0,0,4
+76,NNRTI,0,2,0,0,2
+78,PI Major,0,4,0,0,4
+78,PI Accessory,0,2,0,0,2
+78,NRTI,3,5,3,0,2
+78,NNRTI,2,4,1,1,3
+81,PI Major,0,0,0,0,0
+81,PI Accessory,0,0,0,0,0
+81,NRTI,5,0,0,5,0
+81,NNRTI,3,1,0,3,1
+82,PI Major,0,0,0,0,0
+82,PI Accessory,0,0,0,0,0
+82,NRTI,0,0,0,0,0
+82,NNRTI,1,2,0,1,2
+83,PI Major,0,0,0,0,0
+83,PI Accessory,0,0,0,0,0
+83,NRTI,0,0,0,0,0
+83,NNRTI,2,0,0,2,0
+84,PI Major,0,0,0,0,0
+84,PI Accessory,0,0,0,0,0
+84,NRTI,0,0,0,0,0
+84,NNRTI,0,2,0,0,2
+85,PI Major,0,0,0,0,0
+85,PI Accessory,0,0,0,0,0
+85,NRTI,0,0,0,0,0
+85,NNRTI,2,0,0,2,0
+86,PI Major,0,0,0,0,0
+86,PI Accessory,0,0,0,0,0
+86,NRTI,0,0,0,0,0
+86,NNRTI,2,2,2,0,0
+87,PI Major,0,0,0,0,0
+87,PI Accessory,0,0,0,0,0
+87,NRTI,0,0,0,0,0
+87,NNRTI,1,1,1,0,0
+88,PI Major,0,0,0,0,0
+88,PI Accessory,0,0,0,0,0
+88,NRTI,0,0,0,0,0
+88,NNRTI,2,2,2,0,0
+89,PI Major,0,0,0,0,0
+89,PI Accessory,0,0,0,0,0
+89,NRTI,1,1,1,0,0
+89,NNRTI,2,2,2,0,0
+90,PI Major,0,0,0,0,0
+90,PI Accessory,0,0,0,0,0
+90,NRTI,1,1,1,0,0
+90,NNRTI,1,1,1,0,0
+91,PI Major,2,1,0,2,1
+91,PI Accessory,0,0,0,0,0
+91,NRTI,2,2,1,1,1
+91,NNRTI,1,1,1,0,0
+92,PI Major,0,0,0,0,0
+92,PI Accessory,0,0,0,0,0
+92,NRTI,0,0,0,0,0
+92,NNRTI,0,0,0,0,0
+93,PI Major,0,0,0,0,0
+93,PI Accessory,0,0,0,0,0
+93,NRTI,1,1,1,0,0
+93,NNRTI,2,2,2,0,0
+94,PI Major,0,0,0,0,0
+94,PI Accessory,0,0,0,0,0
+94,NRTI,6,6,6,0,0
+94,NNRTI,2,2,2,0,0
+95,PI Major,0,0,0,0,0
+95,PI Accessory,0,0,0,0,0
+95,NRTI,0,0,0,0,0
+95,NNRTI,0,0,0,0,0
+96,PI Major,0,0,0,0,0
+96,PI Accessory,0,0,0,0,0
+96,NRTI,1,1,0,1,1
+96,NNRTI,1,1,1,0,0

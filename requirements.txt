@@ -1,0 +1,6 @@
+# Python dependencies for the figure-generation scripts (Figures 2-6, SFigure 2).
+# Install with:  pip install -r requirements.txt
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+openpyxl>=3.1        # only needed if reading the .xlsx input from Python

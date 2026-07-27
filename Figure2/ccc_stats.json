@@ -1,0 +1,7 @@
+{
+  "ccc": 0.839,
+  "ci_lo": 0.733,
+  "ci_hi": 0.928,
+  "pearson": 0.839,
+  "_note": "Reconstructed from the published manuscript values (Lin's concordance correlation coefficient = 0.839, 95% CI 0.733-0.928; Pearson r = 0.839). Regenerate from raw data if exact bootstrap CIs are required."
+}

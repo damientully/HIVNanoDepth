@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HIVNanoDepth — Optimising Nanopore Sequencing for HIV-1 Drug Resistance</title>
+<style>
+  :root{
+    --ink:#1a2733; --muted:#5b6b7a; --line:#e2e8ee; --bg:#ffffff; --soft:#f6f9fc;
+    --pi:#0072B2; --nrti:#E69F00; --nnrti:#009E73; --accent:#0072B2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink);line-height:1.6;background:var(--bg);}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:linear-gradient(135deg,#0b3a5b 0%,#0072B2 100%);color:#fff;padding:56px 20px 44px;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+  header h1{margin:0 0 8px;font-size:1.9rem;line-height:1.25}
+  header p.sub{margin:0;opacity:.9;font-size:1.02rem}
+  header p.authors{margin:14px 0 0;opacity:.85;font-size:.92rem}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);
+         color:#fff;border-radius:999px;padding:5px 13px;font-size:.8rem;margin:0 6px 6px 0}
+  section{padding:34px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.25rem;margin:0 0 14px}
+  h2 .num{color:var(--accent);font-weight:700;margin-right:8px}
+  p{margin:0 0 14px}
+  .lead{font-size:1.05rem;color:var(--ink)}
+  code,pre{font-family:"SF Mono",Menlo,Consolas,monospace}
+  pre{background:#0b1e2d;color:#e6f0f7;padding:16px 18px;border-radius:8px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+  code:not(pre code){background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:6px}
+  .card{border:1px solid var(--line);border-radius:10px;padding:16px 16px 14px;background:var(--soft)}
+  .card h3{margin:0 0 4px;font-size:.98rem}
+  .card .file{font-family:"SF Mono",Menlo,monospace;font-size:.78rem;color:var(--muted);word-break:break-all}
+  .card p{margin:8px 0 0;font-size:.9rem;color:var(--muted)}
+  .tag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+       border-radius:4px;padding:2px 7px;color:#fff;margin-bottom:6px}
+  .note{background:#fff8e6;border:1px solid #f0dca0;border-radius:8px;padding:14px 16px;font-size:.92rem}
+  footer{padding:28px 0 48px;color:var(--muted);font-size:.85rem}
+  ul.clean{margin:0 0 14px;padding-left:20px}
+  ul.clean li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Optimising Nanopore Sequencing for Reliable HIV-1 Drug Resistance Profiling</h1>
+    <p class="sub">Application-specific sequencing-depth requirements for HIV-1 drug resistance genotyping.</p>
+    <p class="authors">Daniel Bugembe Lule · Deogratius Ssemwanga · Nicholas Bbosa · Pontiano Kaleebu · Damien C. Tully</p>
+    <div class="badges">
+      <span class="badge">Oxford Nanopore</span>
+      <span class="badge">HIV-1 protease &amp; RT</span>
+      <span class="badge">68 participants, Uganda</span>
+      <span class="badge">Matched Sanger comparison</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <p class="lead">This repository contains the analysis code and figure-generation scripts behind the
+  manuscript. Using matched Sanger and Oxford Nanopore sequencing and systematic in-silico read
+  subsampling (0.5–40% of reads), the study shows that the optimal sequencing depth depends on the
+  intended analytical application. Clinical drug-resistance interpretation reached complete
+  concordance with full-depth data from only 5% of retained reads with no false-positive calls,
+  whereas within-host diversity and quantitative variant analyses required substantially greater depth.</p>
+  <p><a href="hhttps://github.com/damientully/HIVNanoDepth">View the repository on GitHub →</a></p>
+</section>
+
+<section>
+  <h2><span class="num">1</span>Figures &amp; scripts</h2>
+  <p>Each figure has its own folder containing the plotting script and the input data it needs.</p>
+  <div class="grid">
+    <div class="card">
+      <span class="tag" style="background:var(--nrti)">Figure 1 · R</span>
+      <h3>Depth, viral load &amp; error rate</h3>
+      <div class="file">Figure1/sequencing_depth_viral_load_error_figure.R</div>
+      <p>Relationship between plasma viral load, sequencing depth and consensus error rate (n = 68).</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--pi)">Figure 2 · Python</span>
+      <h3>Sanger–ONT concordance</h3>
+      <div class="file">Figure2/make_combined_ABC.py</div>
+      <p>Per-drug agreement, resistance-level scatter (Lin's CCC), and sample × drug discordance heatmap.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--nnrti)">Figure 3 · Python</span>
+      <h3>Subtype confusion matrix</h3>
+      <div class="file">Figure3/make_subtype_confusion_gd.py</div>
+      <p>Genome Detective subtype assignments, Sanger vs. ONT.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--pi)">Figure 4 · Python</span>
+      <h3>Within-host diversity vs depth</h3>
+      <div class="file">Figure4/make_subsampling_fidelity_figure.py</div>
+      <p>Shannon entropy, profile fidelity, minor-variant recall and rarefaction across subsampling levels.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--nrti)">Figure 5 · Python</span>
+      <h3>Variant allele-frequency agreement</h3>
+      <div class="file">Figure5/plot_vaf_agreement.py</div>
+      <p>VAF accuracy vs depth: correlation, Bland–Altman and mean absolute error.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--nnrti)">Figure 6 · Python</span>
+      <h3>Resistance interpretation vs depth</h3>
+      <div class="file">Figure6/make_resistance_concordance_figure.py</div>
+      <p>Five-level and binary concordance, no-call rate, and SDRM recall after subsampling.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:var(--muted)">Supp. Fig 2 · Python</span>
+      <h3>Predictors of discordance</h3>
+      <div class="file">SFigure2/make_discordance_predictors_fig.py</div>
+      <p>Per-sample discordance against error rate, depth and viral load.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">2</span>Quick start</h2>
+  <p>Install the Python dependencies, then run any figure script — paths resolve relative to each
+  script, so no editing is required:</p>
+  <pre>pip install -r requirements.txt
+
+python3 Figure2/make_combined_ABC.py
+python3 Figure3/make_subtype_confusion_gd.py
+python3 Figure4/make_subsampling_fidelity_figure.py
+python3 Figure6/make_resistance_concordance_figure.py
+python3 SFigure2/make_discordance_predictors_fig.py
+
+# Figure 1 (R)
+cd Figure1 &amp;&amp; Rscript sequencing_depth_viral_load_error_figure.R</pre>
+  <p>Each script writes a 600 dpi <code>.png</code> and a vector <code>.pdf</code> into its folder.
+  Set <code>OUT_DIR</code> (or <code>--out-dir</code>) to redirect outputs, and <code>DATA_DIR</code>
+  to point at inputs held elsewhere.</p>
+</section>
+
+<section>
+  <h2><span class="num">3</span>Reproducibility notes</h2>
+  <ul class="clean">
+    <li>Figures 4–6 ship the intermediate tables the plotting scripts consume; the upstream scripts
+        that rebuild them from raw BAM/VCF/Stanford outputs are included for transparency and take
+        their input directories as command-line arguments.</li>
+    <li><code>Figure5/variant_vaf_comparison.csv</code> is produced by
+        <code>plot_variant_counts_comparison.py</code> from per-sample VCFs and is not committed;
+        generate it (or supply <code>--input</code>) before running <code>plot_vaf_agreement.py</code>.</li>
+    <li><code>Figure2/ccc_stats.json</code> was reconstructed from the published Lin's CCC (0.839;
+        95% CI 0.733–0.928) and Pearson r (0.839).</li>
+  </ul>
+  <div class="note">Raw nanopore data, consensus sequences and metadata are deposited under
+  <strong>[ENA/SRA accession XXXXX]</strong> — replace this before publication.</div>
+</section>
+
+<footer class="wrap">
+  Released under the MIT License. Code by Daniel Bugembe Lule &amp; Damien C. Tully.
+  · <a href="https://github.com/danlule-sketch/HIVNanoDepth">github.com/danlule-sketch/HIVNanoDepth</a>
+</footer>
+
+</div>
+</body>
+</html>

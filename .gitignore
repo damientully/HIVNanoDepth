@@ -1,0 +1,13 @@
+# Generated figures / rendered outputs
+*.png
+*.pdf
+!docs/**            # keep anything intentionally committed under docs/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# R
+.Rhistory
+.RData
+.Rproj.user/
