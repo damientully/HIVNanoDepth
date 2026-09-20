@@ -3,7 +3,8 @@
 Analysis code and figure-generation scripts for:
 
 > **Optimising Nanopore Sequencing for Reliable HIV-1 Drug Resistance Profiling**
-> Daniel Bugembe Lule, Deogratius Ssemwanga, Nicholas Bbosa, Pontiano Kaleebu, Damien C. Tully.
+> Daniel Bugembe Lule, Deogratius Ssemwanga, Nicholas Bbosa, Pontiano Kaleebu, Damien C. Tully. 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7224048
 
 This repository reproduces the main and supplementary figures of the manuscript. It defines
 application-specific Oxford Nanopore (ONT) sequencing-depth requirements for HIV-1 drug
@@ -104,7 +105,7 @@ python3 Figure6/make_resistance_concordance_figure.py --out-dir /path/to/figures
 ## Data availability
 
 Raw nanopore sequencing data, consensus sequences and associated metadata have been deposited in
-[ENA/SRA accession XXXXX]. Please replace this accession before publication.
+[ENA accession PRJEB126675]. 
 
 ## Citation
 
